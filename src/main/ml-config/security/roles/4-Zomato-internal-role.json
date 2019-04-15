@@ -1,0 +1,5 @@
+{
+  "role-name" : "Zomato-internal",
+  "description" : "Internal role used for amping",
+  "role" : [ "Zomato-writer" ]
+}

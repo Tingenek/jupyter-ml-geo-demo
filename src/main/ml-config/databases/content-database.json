@@ -1,0 +1,22 @@
+{
+  "database-name" : "%%DATABASE%%",
+  "schema-database": "%%SCHEMAS_DATABASE%%",
+  "range-element-index" : [ {
+    "scalar-type" : "string",
+    "namespace-uri" : "CHANGEME",
+    "localname" : "CHANGEME",
+    "collation" : "http://marklogic.com/collation/",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
+  } ],
+    "geospatial-element-index":[
+             {
+                "namespace-uri":"",
+                "localname":"LatLon",
+                "coordinate-system":"wgs84",
+                "point-format":"point",
+                "range-value-positions":true,
+                "invalid-values":"ignore"
+             }
+    ]
+}

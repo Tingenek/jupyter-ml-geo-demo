@@ -1,0 +1,5 @@
+{
+  "role-name" : "Zomato-nobody",
+  "description" : "Unauthenticated user",
+  "role" : [ ]
+}
